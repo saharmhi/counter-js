@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --body-font: "Rubik", sans-serif;
+    --bigest-font-size: 4.5rem;
+    --bigger-font-size: 3.5rem;
+    --normal-font-size: .938rem;
+
+}
+
+body{
+    background-color: rgb(238, 184, 236);
+}
+
+.container{
+   padding:  250px 500px;
+   width: 100%;
+}
+
+.title{
+    font-size: var(--bigger-font-size);
+    padding-left: 130px;
+}
+
+.resualt{
+    font-family: var(--body-font);
+    font-size: var(--bigest-font-size);
+    padding-left:  200px;
+
+}
+.buttons{
+    display: flex;
+
+}
+
+.decrement{
+   width: 150px;
+   height: 40px;
+   margin-right: 10px;
+   background-color: rgb(232, 183, 37);
+   border-radius: 10px;
+   border: 1px solid rgb(35, 34, 34);
+   font-family: var(--body-font);
+   font-size: var(--normal-font-size);
+}
+
+.reset{
+    width: 130px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: rgb(229, 58, 58);
+    border-radius: 10px;
+    border: 1px solid rgb(35, 34, 34);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+.increment{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(77, 186, 77);
+    border-radius: 10px;
+    border: 1px solid rgb(35, 34, 34);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+.increment:active,
+.decrement:active,
+.reset:active{
+    transform: translateY(2px);
+}
